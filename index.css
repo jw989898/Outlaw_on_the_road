@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+*{
+    margin-top: 0px;
+    left: 0px;
+}
+
+body{
+    margin: auto;
+    width: 100%;
+    background-image: url("images/roadbg.jpg");
+    background-repeat: repeat-y;
+    background-size:contain;
+}
+
+#back{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-top: 0px;
+}
+
+#back1{
+    width: 100%;
+    display: block;
+    margin-top: 700px;
+    position: relative;
+    top: -10px;
+}
+
+#back2{
+    width: 100%;
+    display: block;
+    margin-top: 700px;
+    position: relative;
+    top: -10px;
+}
+
+p{
+    font-size: 20rem;
+    position: relative;
+    display:flex;
+    color: white;
+    text-shadow: black;
+    font-family: 'cairo', sans-serif;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+h2{
+    font-size: 3rem;
+    color: white;
+    text-shadow: black;
+}
+#text1{
+    top: 3800px;
+    left: 25%;
+    font-size: 3rem;
+    text-shadow: rgb(224, 224, 224);
+    position: absolute;
+    display: block;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    line-height: 80%;
+}
+
+#text2{
+    top: 6740px;
+    left: 28%;
+    font-size: 3rem;
+    text-shadow: black;
+    position: absolute;
+    display: block;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    line-height: 80%;
+}
+
+#text3{
+    top: 9760px;
+    left: 27%;
+    font-size: 2rem;
+    text-shadow: black;
+    position: absolute;
+    display: block;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    line-height: 80%;
+}
+
+#text4{
+    top: 11000px;
+    font-size: 5rem;
+    text-shadow: black;
+    position: absolute;
+    left: 31%;
+    display: block;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+    line-height: 80%;
+}
+
+#text5{
+    top: 11000px;
+    font-size: 5rem;
+    text-shadow: black;
+    position: absolute;
+    left: 52%;
+    display: block;
+    color: red;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+    line-height: 80%;
+    bottom: 0px;
+}
+
+#car{
+    position: fixed;
+    top: 100px;
+    left: 35%;
+    text-shadow: black;
+}
+
+#car2{
+    position: fixed;
+    top: 500px;
+    left: 56%;
+}
+
+#mov{
+    width: 100%;
+    bottom: -2000px; 
+    position: relative;
+}
